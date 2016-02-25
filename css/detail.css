@@ -1,0 +1,127 @@
+body
+{
+ font-family:Arial,Futura,Gill Sans;
+}
+
+html,body{
+ margin:0;
+ padding:0;
+ height:100%;
+}
+
+#name
+{
+ display:inline;
+ font-size:28px;
+ margin-left:5%;
+ margin-top:1.5em;
+ font-weight:bold; 
+}
+
+#nav{
+ display:inline;
+}
+
+li{
+ float:right;
+ list-style:none;
+ font-size:20px;
+ margin-right:5%;
+ margin-top:0.5em;
+ font-weight:bold;
+}
+
+#container{
+ min-height:100%;
+ height:auto !important;
+ height:100%;
+ position:relative;
+ border:1px none
+ width:100%;
+}
+
+#header{
+ padding:10px;
+}
+
+a
+{
+ text-decoration: none;	
+ color: #000;
+}
+
+a:hover
+{
+ color:#ccc;
+}
+
+#page{
+ width:100%;
+ padding-bottom:60px;
+ margin-top: 6em;
+}
+
+#product_title
+{
+ float:left;     /*向左浮动*/
+ position:fixed; /*位置较屏幕相对不变*/
+ top:4em;        /*配合position属性使用，距离屏幕顶端距离3em*/
+ /*left:1em;*/
+ width:25%; 
+ height:530px;
+ border:1px #ccc none;
+ margin-left: 5.8%;
+ margin-top: 5em;
+ font-weight: bold;
+}
+
+#product_discription
+{
+ float:left;     /*向左浮动*/
+ position:fixed; /*位置较屏幕相对不变*/
+ top:4em;        /*配合position属性使用，距离屏幕顶端距离3em*/
+ /*left:1em;*/
+ width:25%; 
+ height:530px;
+ border:1px #ccc none;
+ margin-left: 5.8%;
+ margin-top: 5em;
+
+}
+
+.list{
+margin-bottom:1em;
+margin-top:2.5em;
+font-weight: bold;
+}
+
+#content{
+ float:right;
+ width:65%;
+ margin-right:20px;
+ border:1px none;
+ height:auto;
+}
+
+img{
+margin-left:5%;
+margin-bottom:1em;
+margin-top:1em;
+width: 90%;
+}
+
+#footer{
+ float:right;
+ color:grey;
+ font-size: 12px;
+ border:none;
+ margin-top: 3em;
+ margin-bottom: 0;
+ margin-right: 5%;
+ /*position:absolute;bottom:6px;left:10px;*/
+}
+
+
+
+
+

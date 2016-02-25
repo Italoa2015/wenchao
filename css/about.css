@@ -1,0 +1,134 @@
+body
+{
+ font-family:Arial,Futura,Gill Sans;
+}
+
+html,body
+{
+ margin:0;
+ padding:0;
+ height:100%;
+}
+
+.header
+{
+ height:40px;
+ padding-top:2em;
+}
+
+#name
+{
+ display:inline;   /*将块级元素变为行内元素*/
+ font-size:28px;
+ font-weight:bold; /*加粗*/
+ margin-left:5%;
+ margin-top:1.5em;
+}
+
+#container
+{
+ position:relative;
+ min-height:100%;
+ height:auto !important;
+ height:100%;
+ border:1px none
+ width:100%;
+}
+
+#header
+{
+ padding:10px;
+}
+
+#page
+{
+ width:100%;
+ margin-top: 6em;
+ padding-bottom:60px;
+
+}
+
+#left
+{
+ float:left;     /*向左浮动*/
+ position:fixed; /*位置较屏幕相对不变*/
+ top:8.2em;        /*配合position属性使用，距离屏幕顶端距离3em*/
+ /*left:1em;*/
+ width:25%; 
+ height:530px;
+ border:1px #ccc none;
+ margin-left: 5.8%;
+}
+
+.item_list
+{
+margin-bottom:1em;
+margin-top:2.5em;
+font-weight: bold;
+}
+
+a
+{
+ text-decoration: none;	
+ color: #000;
+}
+
+a:hover
+{
+ color:#ccc;
+}
+
+#content
+{
+ float:right;
+ width:65%;
+ margin-right:20px;
+ border:1px none;
+ height:auto;    /*高度自适应*/
+}
+
+#text-info
+{
+ width:400px;
+ height:150px;
+ border:1px #ccc none;
+ float:left;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+#text-education
+{
+ width:400px;
+ height:300px;
+ border:1px #ccc none;
+ float:left;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+#profile
+{
+ float:right;
+ border:none;
+ margin-right:39%;
+ margin-top: 1.3em;
+}
+
+img
+{
+ width:100px;
+ height:112px;	
+}
+
+
+#footer
+{
+ float:right;
+ color:grey;
+ font-size: 12px;
+ border:none;
+ margin-top: 3em;
+ margin-bottom: 0;
+ margin-right: 5%;
+}

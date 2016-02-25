@@ -1,0 +1,163 @@
+body
+{
+ font-family:Arial,Futura,Gill Sans;
+}
+
+html,body
+{
+ margin:0;
+ padding:0;
+ height:100%;
+}
+
+.header
+{
+ height:40px;
+ padding-top:2em;
+ borer:none;
+}
+
+#name
+{
+ display:inline;   /*将块级元素变为行内元素*/
+ font-size:28px;
+ font-weight:bold; /*加粗*/
+ margin-left:5%;
+ margin-top:1.5em;
+ border: none;
+}
+
+#container
+{
+ position:relative;
+ min-height:100%;
+ height:auto !important;
+ height:100%;
+ border:1px none
+ width:100%;
+}
+
+#header
+{
+ padding:10px;
+}
+
+#page
+{
+ width:100%;
+ margin-top: 6em;
+ padding-bottom:60px;
+
+}
+
+#left
+{
+ float:left;     /*向左浮动*/
+ position:fixed; /*位置较屏幕相对不变*/
+ top:8.2em;        /*配合position属性使用，距离屏幕顶端距离3em*/
+ /*left:1em;*/
+ width:25%; 
+ height:530px;
+ border:1px #ccc none;
+ margin-left: 5.8%;
+}
+
+.item_list
+{
+margin-bottom:1em;
+margin-top:2.5em;
+font-weight: bold;
+}
+
+a
+{
+ text-decoration: none;	
+ color: #000;
+}
+
+a:hover
+{
+ color:#ccc;
+}
+
+#content
+{
+ float:right;
+ width:65%;
+ margin-right:20px;
+ border:1px none;
+ height:auto;    /*高度自适应*/
+}
+
+#2F
+{
+ margin-top: 5em;	
+}
+
+/*
+.wrap {
+	width:40%;
+	height:330px;
+	position:relative;
+	border:0;
+	margin:0 10px;
+	display:inline;
+}
+
+.wrap img {
+	border:0;
+    height:100%;
+}
+
+.wrap p {
+	display:block;
+	width:220px;
+	height:330px;
+	position:absolute;
+	left:10%;
+	top:260px;
+	z-index:1;
+	background:transparent;
+	font-size:12px;
+	color:#fff;
+	padding:0;
+	margin-bottom:20px;
+	line-height:16px;
+	-webkit-transition: all 0.6s ease-in-out;
+}
+
+.wrap p b {
+	display:block;
+	font-size:22px;
+	color:#fc0;
+	margin:0;
+	padding:0;
+	line-height:30px;
+}
+
+.wrap a:hover {
+	direction:ltr;
+}
+
+.wrap a:hover p {
+	top:10px;
+}
+*/
+
+img
+{
+margin:0 auto;
+width: 350px;
+height: 300px;
+}
+
+#footer
+{
+ float:right;
+ color:grey;
+ font-size: 12px;
+ border:none;
+ margin-top: 3em;
+ margin-bottom: 0;
+ margin-right: 10.6%;
+}
