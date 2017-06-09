@@ -1,2 +1,2 @@
 # wenchao
-a website 
+a pure website with static pages.
