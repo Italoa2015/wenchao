@@ -1,0 +1,76 @@
+.contacts {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 120px;
+    font-family: 'Lato', sans-serif
+}
+
+.container {
+    width: 100%;
+    /*max-width: 1040px;
+    min-width: 1040px;*/
+    margin: 0 auto
+}
+
+.contacts__header {
+    font-size: 70px;
+    font-weight: 900
+}
+
+.contacts__imageBody {
+    margin-top: 100px;
+    margin-bottom: 200px
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.contacts__phone {
+    float: left;
+    width: 251px;
+    height: 439px;
+    background: transparent url("../img/demo/phone.png") center no-repeat;
+    background-size: contain;
+    position: relative
+}
+
+.contacts__phone__img {
+    position: absolute;
+    left: 38px;
+    top: 49px;
+    right: 43px;
+    bottom: 88px;
+    overflow: hidden;
+    background: transparent url("../img/demo/mobile.jpg") center no-repeat;
+    background-size: 100% auto;
+    background-position: center 0%;
+    transition: all 2s
+}
+
+.contacts__laptop {
+    float: right;
+    width: 695px;
+    height: 420px;
+    background: transparent url("../img/demo/laptop.png") center no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    position: relative
+}
+
+.contacts__laptop__img {
+    position: absolute;
+    left: 118px;
+    top: 27px;
+    right: 123px;
+    bottom: 111px;
+    overflow: hidden;
+    background: transparent url("../img/demo/desktop.jpg") center no-repeat;
+    background-size: 100% auto;
+    background-position: center 0%;
+    transition: all 2s
+}
